@@ -13,3 +13,4 @@ Les commandes fmi-cmd :
    pm           Jeux du plus ou moins
    genereMap    Génère une map dans un fichier
    road         Trouve la route la plus courte
+   todo         Gestion d'une todo list dans un fichier text
