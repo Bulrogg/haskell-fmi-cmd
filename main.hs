@@ -2,6 +2,7 @@ import System.Environment
 import Data.List
 import Commande.Ping
 import Commande.Hello
+import Commande.Croix
 
 
 -- getArgs :: IO [String]
@@ -15,12 +16,14 @@ helpCmd _ = do
 	putStrLn "Les commandes fmi-cmd :"
 	putStrLn "      hello       Affiche \"Hello World\""
 	putStrLn "      ping        Affiche \"pong\""
+	putStrLn "      croix       Affiche une croix de la taille voulu"
 	putStrLn "      help        Affiche l'aide"
 
 dispatch :: [ (String, [String] -> IO ()) ]
 dispatch = [ ("hello", helloCmd)
-           , ("ping", pingCmd) 
-           , ("help", helpCmd) 
+           , ("ping",  pingCmd) 
+           , ("croix", croixCmd) 
+           , ("help",  helpCmd) 
            ]
 
 main :: IO ()
