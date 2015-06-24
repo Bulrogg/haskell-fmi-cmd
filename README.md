@@ -14,3 +14,10 @@ Les commandes fmi-cmd :
    genereMap    Génère une map dans un fichier
    road         Trouve la route la plus courte
    todo         Gestion d'une todo list dans un fichier text
+
+
+
+TODO :
+- insertion du build cabal
+- insertion des tests
+- insertion du système d'échec de la commande
